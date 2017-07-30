@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Style from './Style';
 import {
     View,
     Text,
@@ -9,10 +10,10 @@ class ReactCalculator extends Component {
 
     render() {
         return (
-            <View style={{flex: 1}}>
-            	<View style={{flex: 2, backgroundColor: '#193441'}}></View>
-            	<View style={{flex: 8, backgroundColor: '#3E606F'}}></View>
-        	</View>
+            <View style={Style.rootContainer}>
+    			<View style={Style.displayContainer}></View>
+    			<View style={Style.inputContainer}></View>
+			</View>
         )
     }
 
