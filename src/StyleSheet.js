@@ -37,10 +37,14 @@ var Style = StyleSheet.create({
         fontWeight: 'bold',
         color: 'white'
     },
-    
+
     inputRow: {
         flex: 1,
         flexDirection: 'row'
+    },
+    
+    inputButtonHighlighted: {
+        backgroundColor: '#193441'
     }
 
 
